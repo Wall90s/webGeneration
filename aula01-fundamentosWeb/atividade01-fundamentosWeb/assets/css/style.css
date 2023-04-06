@@ -91,7 +91,7 @@ h4 {
     transition: 0.5s;
 }
 
-.midia:hover{
+.midia:hover {
     border-radius: 2.5rem;
 }
 
@@ -102,3 +102,28 @@ h4 {
 img {
     aspect-ratio: 16/10;
 }
+
+footer {
+    margin: 2% 0;
+    border-top: solid 1px;
+    /* background-color: green; */
+}
+
+footer a {
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+footer img {
+    height: 75%;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    /* background: greenyellow; */
+}
+
+/* -- contato -- */
