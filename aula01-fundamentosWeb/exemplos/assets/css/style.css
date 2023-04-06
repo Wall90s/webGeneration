@@ -1,0 +1,25 @@
+/* Reseta alguns padrões do HTML */
+* {
+    padding: 0;
+    margin: 0;
+    
+    /* Deixa a borda fixa, e o tamanho do padding "empurra o 
+    conteúdo para dentro" */
+    box-sizing: border-box;
+}
+
+/* O "." serve para estilizar uma classe*/
+.navbar {
+    /* Com o "display: flex" o padrão é que cada elemento fique ao
+     lado do outro */
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+/* Neste caso, para remover o "sublinhado do link" precisamos 
+selecionar o elemento "a" porquê é como se ele tivesse um
+estilo inline */
+.navbar a {
+    text-decoration: none;
+}
